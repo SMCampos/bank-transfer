@@ -1,10 +1,13 @@
-## Criar novo Projeto
+## Projeto Bank-Transfer
 
-`dotnet new console -n DIO.bank`
+Projeto desenvolvido em um Bootcamp da Digital Innovation One com o bejtivo de demonstrar o funcionamento básico
+do C# com saída do projeto no próprio terminal no VS Code.
+
+Para criar o projeto foi utilizado o comando: `dotnet new console -n DIO.bank`
 
 ###### Para abrir o Projeto no VS Code
 
-digite no prompt o comando: `code DIO.Bank`
+Utilizando o terminal navegue até a pasta onde criou o projeto e digite no prompt o comando: `code DIO.Bank`
 
 O VS code irá exibir uma mensagem no canto inferior esquerdo da tela pedindo para confirmar se é um projeto C#, clique em YES e automaticamente será criada a pasta .vscode com os arquivos launch.json e tasks.json
 
@@ -15,8 +18,10 @@ insira: `"internalConsoleOptions": "openOnSessionStart"`
 
 Para facilitar a implementação das classes em C#, caso não tenha adicionado, adicione no VS Code as extensões C# for Visual Studio Code e C# Extensions
 
-Na aba Explorer do VS Code onde está as pastas do projeto clique sobre a pasta DIO.Bank e clique em criar nova pasta e coloque o nome de Classes Em seguida clique na pasta Classes com o botão direito e selecione criar nova classe C# e dê a essa classe o nome de Conta.cs
+Na aba Explorer do VS Code onde estão as pastas do projeto clique sobre a pasta DIO.Bank e clique em criar nova pasta e coloque o nome de Classes Em seguida clique na pasta Classes com o botão direito e selecione criar nova classe C# e dê a essa classe o nome de Conta.cs
 
 No arquivo Conta.cs para estruturação desse projeto na 1ª linha de código namespace, deixe a linha apenas com o código namespace DIO.bank
 
 Na aba Explorer do VS Code onde está as pastas do projeto clique sobre a pasta DIO.Bank e clique em criar nova pasta e coloque o nome de Enums Em seguida clique na pasta Enums com o botão direito e selecione criar novo arquivo e dê a essa arquivo o nome de TipoConta.cs
+
+Para rodar o projeto digite no terminal do VS Code o comando  `dotnet run`
